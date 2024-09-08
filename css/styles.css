@@ -29,7 +29,6 @@ body {
   font-family: var(--font-family);
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
   letter-spacing: 2%;
   background-color: var(--white);
   color: var(--navy-blue);
@@ -61,9 +60,8 @@ button {
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 111%;
+  line-height: 1.11;
   text-align: center;
-  color: var(--navy-blue);
 }
 
 .logo {
@@ -102,7 +100,7 @@ button {
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   color: var(--navy-blue);
 }
 .header-nav-link:hover,
@@ -121,6 +119,11 @@ button {
 .header-address-link {
 }
 
+.header-address-link:hover,
+.header-address-link:focus {
+  color: var(--iris);
+}
+
 /* #endregion Header */
 
 /* #region Hero */
@@ -132,7 +135,7 @@ button {
   font-family: var(--font-family);
   font-weight: 700;
   font-size: 56px;
-  line-height: 107%;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--white);
@@ -141,7 +144,7 @@ button {
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--white);
   background-color: var(--iris);
@@ -168,10 +171,10 @@ button {
 .feature-caption {
   font-weight: 500;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 1.2;
 }
 .feature-desc {
-  line-height: 150%;
+  line-height: 1.5;
   color: var(--slate);
 }
 /* #endregion Features */
@@ -189,11 +192,11 @@ button {
 .team-capture {
   font-weight: 500;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 1.2;
   text-align: center;
 }
 .team-desc {
-  line-height: 150%;
+  line-height: 1.5;
   text-align: center;
   color: var(--slate);
 }
@@ -215,10 +218,10 @@ button {
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 1.2;
 }
 .portfolio-desc {
-  line-height: 150%;
+  line-height: 1.5;
   color: var(--slate);
 }
 
@@ -234,7 +237,7 @@ button {
 }
 
 .footer-slo {
-  line-height: 150%;
+  line-height: 1.5;
   color: var(--cloud);
 }
 
