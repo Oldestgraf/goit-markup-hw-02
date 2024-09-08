@@ -31,7 +31,11 @@ body {
   font-weight: 400;
   letter-spacing: 2%;
   background-color: var(--white);
-  color: var(--navy-blue);
+  color: var(--slate);
+}
+
+address {
+  font-style: normal;
 }
 
 a {
@@ -61,6 +65,8 @@ button {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 
@@ -101,11 +107,12 @@ button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
 .header-nav-link:hover,
 .header-nav-link:focus {
-  color: var(--iris);
+  color: var(--ocean);
 }
 .header-nav-link:active {
   color: var(--ocean);
@@ -114,14 +121,14 @@ button {
 }
 .header-address-list {
 }
-.header-address-items {
-}
 .header-address-link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
 }
-
 .header-address-link:hover,
 .header-address-link:focus {
-  color: var(--iris);
+  color: var(--ocean);
 }
 
 /* #endregion Header */
@@ -150,7 +157,10 @@ button {
   background-color: var(--iris);
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
-
+.btn:hover,
+.btn:focus {
+  background-color: var(--ocean);
+}
 .btn:active {
   background-color: var(--ocean);
 }
@@ -172,9 +182,11 @@ button {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .feature-desc {
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--slate);
 }
 /* #endregion Features */
@@ -188,15 +200,18 @@ button {
 .team-list {
 }
 .team-item {
+  background: var(--white);
 }
 .team-capture {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 .team-desc {
   line-height: 1.5;
+  letter-spacing: 0.02em;
   text-align: center;
   color: var(--slate);
 }
@@ -219,9 +234,11 @@ button {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .portfolio-desc {
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--slate);
 }
 
